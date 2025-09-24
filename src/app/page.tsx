@@ -25,7 +25,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center text-center overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full z-0">
           <Image 
-               src="https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+               src="hrb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                fill
                style={{ objectFit: 'cover' }}
                className="opacity-30" 
@@ -58,10 +58,10 @@ export default function Home() {
                 <p className="text-gray-300 text-sm max-w-md mb-2">To book appointments faster, we are preparing our apps on these platforms.</p>
                 <div className="flex items-center justify-center gap-4">
                     <a href="https://apps.apple.com/us/app/square-appointments/id914741346" aria-label="Download on the App Store" target="_blank" rel="noopener noreferrer">
-                        <Image src="https://assets.stickpng.com/images/5a902db97f96951c82922874.png" alt="Download on the App Store" width={120} height={40} />
+                        <Image src="/images/apple-logo.png" alt="Download on the App Store" width={120} height={40} />
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.squareup.appointments" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
-                        <Image src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width={135} height={40} style={{ height: 'auto' }} />
+                        <Image src="/images/google-play.png" alt="Get it on Google Play" width={135} height={40} style={{ height: 'auto' }} />
                     </a>
                 </div>
             </div>
@@ -126,7 +126,7 @@ export default function Home() {
               ))}
             </div>
             <div className="h-96 lg:h-[600px] w-full relative rounded-lg overflow-hidden glass-card">
-              <Image src="https://images.unsplash.com/photo-1599912027806-cfec9f5944b6?q=80&w=2070&auto=format&fit=crop" alt="Exterior detailing" fill style={{objectFit: 'cover'}} data-ai-hint="car exterior" />
+              <Image src="/images/audi-exterior.avif" alt="Exterior detailing" fill style={{objectFit: 'cover'}} data-ai-hint="car exterior" />
             </div>
           </div>
         </div>
