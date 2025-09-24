@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 227 23% 11%; /* #111827 */
+    --foreground: 220 14% 90%; /* #e5e7eb */
+
+    --card: 225 18% 17%; /* #202737 - Approximation for glass-card */
+    --card-foreground: 220 14% 90%;
+
+    --popover: 227 23% 11%;
+    --popover-foreground: 220 14% 90%;
+
+    --primary: 217 91% 60%; /* #3b82f6 - blue-500 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 225 18% 25%; /* #313a4c - Approximation */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 225 18% 25%;
+    --muted-foreground: 220 9% 65%; /* #9ca3af - gray-400 */
+
+    --accent: 225 18% 25%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 217 19% 27%; /* #374151 - gray-700 */
+    --input: 217 19% 27%;
+    --ring: 217 91% 60%;
+    
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 227 23% 11%;
+    --foreground: 220 14% 90%;
+
+    --card: 225 18% 17%;
+    --card-foreground: 220 14% 90%;
+
+    --popover: 227 23% 11%;
+    --popover-foreground: 220 14% 90%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 225 18% 25%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 225 18% 25%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 225 18% 25%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 217 19% 27%;
+    --input: 217 19% 27%;
+    --ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: linear-gradient(180deg, rgba(17, 24, 39, 0.8) 0%, rgba(17, 24, 39, 1) 100%);
+  }
+  
+  .glass-card {
+    background: rgba(31, 41, 55, 0.5);
+    @apply backdrop-blur-md; /* A Tailwind utility for backdrop-filter: blur(10px) */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}

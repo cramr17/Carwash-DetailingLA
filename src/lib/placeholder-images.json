@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "screenshot-0",
+      "description": "A screenshot of the app's services screen, where a user is booking a car wash for a black car.",
+      "imageUrl": "https://images.unsplash.com/photo-1555529771-835f59fc5efe?q=80&w=1350",
+      "imageHint": "app services"
+    },
+    {
+      "id": "screenshot-1",
+      "description": "A screenshot of the app's main dashboard showing an overview of upcoming appointments and car status.",
+      "imageUrl": "https://picsum.photos/seed/carwash1/600/1200",
+      "imageHint": "app booking"
+    },
+    {
+      "id": "screenshot-2",
+      "description": "A screenshot of the service selection screen, where users can choose from various car wash and detailing packages.",
+      "imageUrl": "https://picsum.photos/seed/carwash2/600/1200",
+      "imageHint": "app services"
+    },
+    {
+      "id": "screenshot-3",
+      "description": "A screenshot of the booking calendar, allowing users to select a convenient date and time for their service.",
+      "imageUrl": "https://picsum.photos/seed/carwash3/600/1200",
+      "imageHint": "app calendar"
+    },
+    {
+      "id": "screenshot-4",
+      "description": "A screenshot of the payment screen, showing a secure and easy way to pay for services within the app.",
+      "imageUrl": "https://picsum.photos/seed/carwash4/600/1200",
+      "imageHint": "app payment"
+    },
+    {
+      "id": "screenshot-5",
+      "description": "A screenshot of the appointment location screen, where users can enter their address for the mobile service.",
+      "imageUrl": "https://picsum.photos/seed/carwash5/600/1200",
+      "imageHint": "app address"
+    }
+  ]
+}
